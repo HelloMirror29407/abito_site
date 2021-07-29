@@ -44,6 +44,10 @@ body {
   color: inherit;
 }
 
+.menu-link:hover {
+  text-decoration: underline;
+}
+
 .button {
   text-decoration: none;
   display: inline-block;
@@ -55,10 +59,19 @@ body {
   color: inherit;
 }
 
+.button-link:hover {
+  text-decoration: underline;
+}
+
 .button-primary {
   background: #256eeb;
   border-radius: 5px;
   color: white;
+  transition: all .2s ease;
+}
+
+.button-primary:hover {
+  background: #0f5fe8;
 }
 
 .search-panel {
@@ -76,6 +89,10 @@ body {
   border: none;
   padding-left: 22px;
   padding-right: 22px;
+}
+
+.search-input:focus {
+  outline: none;
 }
 
 .search-button {
@@ -213,6 +230,10 @@ body {
   color: inherit;
   text-decoration: none;
   margin-bottom: 5px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
 
 
